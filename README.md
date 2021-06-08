@@ -2,6 +2,8 @@
 
 Version string used is 2021-06-07R 
 
+This version includes some minor bug fixes
+
 A description of this SDK can be found in VykingTrackerSDK-2021-03-31.pdf
 
 The SDK relies on camera access and it is the apps responsibility to request camera access, the example code section provides an example of how to do this.
