@@ -1,6 +1,6 @@
 # TrackerSDKv2
 
-Version string used is 2021-03-31R
+Version string used is 2021-06-07R
 
 A description of this SDK can be found in VykingTrackerSDK-2021-03-31.pdf
 
