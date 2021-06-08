@@ -2,7 +2,7 @@
 
 Version string used is 2021-06-07R 
 
-This version includes some minor bug fixes
+This version includes some minor bug fixes - 2021-06-08
 
 A description of this SDK can be found in VykingTrackerSDK-2021-03-31.pdf
 
