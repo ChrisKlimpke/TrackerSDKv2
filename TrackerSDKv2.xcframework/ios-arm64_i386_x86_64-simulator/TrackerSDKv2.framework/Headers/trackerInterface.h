@@ -14,9 +14,9 @@
 #include <stdint.h>
 
 #if PRINT_DEBUG
-#define VYKING_TRACKER_SDK_VERSION "2021-06-07D"
+#define VYKING_TRACKER_SDK_VERSION "2021-06-22D"
 #else
-#define VYKING_TRACKER_SDK_VERSION "2021-06-07R"
+#define VYKING_TRACKER_SDK_VERSION "2021-06-22R"
 #endif
 
 #ifdef __cplusplus
@@ -208,6 +208,7 @@ void MODULEAPI *TRACKER_RAW_METHOD(collectGLContextFN)(void);   // used to colle
 bool MODULEAPI TRACKER_RAW_METHOD(setImageRegionOfInterest)( vkBox roi );
 bool MODULEAPI TRACKER_RAW_METHOD(getImageRegionOfInterest)( const uint32_t frameID, vkBox *roi );
 void MODULEAPI TRACKER_RAW_METHOD(set3DModelSerialNumber)( const char *serialString, const char *sneakerKitReference );
+long MODULEAPI TRACKER_RAW_METHOD(getSDKexpiry)( );
 
 #undef MODULEAPI
 #ifdef __cplusplus

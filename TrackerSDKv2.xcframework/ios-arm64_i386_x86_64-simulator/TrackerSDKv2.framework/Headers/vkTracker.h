@@ -147,4 +147,6 @@ MODULEAPI @interface vkTracker : NSObject
 
 - (void ) set3DModelSerialNumber:(NSString *)serialString sneakerKitRef:(NSString *)sneakerKitRef ;
 
+- (long ) getSDKexpiry;
+
 @end
