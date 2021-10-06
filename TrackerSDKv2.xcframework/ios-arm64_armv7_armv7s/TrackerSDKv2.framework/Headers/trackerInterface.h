@@ -14,9 +14,9 @@
 #include <stdint.h>
 
 #if PRINT_DEBUG
-#define VYKING_TRACKER_SDK_VERSION "2021-06-22D2"
+#define VYKING_TRACKER_SDK_VERSION "2021-10-06D"
 #else
-#define VYKING_TRACKER_SDK_VERSION "2021-06-22R2"
+#define VYKING_TRACKER_SDK_VERSION "2021-10-06R2"
 #endif
 
 #ifdef __cplusplus
@@ -161,6 +161,8 @@ bool MODULEAPI TRACKER_RAW_METHOD(getARKitMatricies)( unsigned int searchframeID
                                                       int          viewPortHeight,
                                                       void       **arRefPtr  );
 long MODULEAPI TRACKER_RAW_METHOD(externalSendARFrame)( void *arFramePtr );
+long MODULEAPI TRACKER_RAW_METHOD(externalSendFrame)( void *framePtr, float fov );
+void MODULEAPI *TRACKER_RAW_METHOD(convertURLtoCVPixelBuffer)( const char *fileName, int modeBits );
 
 // Detector Control/Access Functions
 bool MODULEAPI TRACKER_RAW_METHOD(reset)(bool full);
