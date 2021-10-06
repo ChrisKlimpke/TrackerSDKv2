@@ -1,6 +1,6 @@
 # TrackerSDKv2
 
-Version string used is 2021-10-06R 
+Version string used is 2021-10-06R2 
 
 This version includes some minor bug fixes.
 
