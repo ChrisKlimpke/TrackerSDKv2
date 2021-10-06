@@ -86,6 +86,12 @@ MODULEAPI @interface vkTracker : NSObject
            viewPortHeight: (int                     )viewPortHeight
                  ArRefPtr: (GroupARFrameCache     **)ArRefPtr ;
 
+- (CVPixelBufferRef )xxXconvertURLtoCVPixelBuffer:(NSString *)fileName modeBits: (int )modeBits;
+
+- (void )xxXreleaseConvertURLtoCVPixelBuffer:(CVPixelBufferRef )cvPxBfrRef ;
+
+- (long) externalSendFrame:(CVPixelBufferRef )frame fov:(float )fov;
+
 - (long) externalSendARFrame:(ARFrame *) arFrame;  // returns the frame id
 #endif // TARGET_OS_IOS
 
