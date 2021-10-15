@@ -14,9 +14,9 @@
 #include <stdint.h>
 
 #if PRINT_DEBUG
-#define VYKING_TRACKER_SDK_VERSION "2021-10-06D"
+#define VYKING_TRACKER_SDK_VERSION "2021-10-15D"
 #else
-#define VYKING_TRACKER_SDK_VERSION "2021-10-06R3"
+#define VYKING_TRACKER_SDK_VERSION "2021-10-15R"
 #endif
 
 #ifdef __cplusplus
