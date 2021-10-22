@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/trackerInterface.h</key>
 		<data>
-		nZOjUZ8L0AT0K9JNOgMWGAN9n3c=
+		SnLHxhNX9Gjghbg5dPQwmvgcYJw=
 		</data>
 		<key>Headers/vkTracker.h</key>
 		<data>
-		OI5kLYrsJ/IDRsX+W5RNYEMfgB8=
+		rwofyyKrMAxTiQc2P9RsYk4D88s=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -42,22 +42,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nZOjUZ8L0AT0K9JNOgMWGAN9n3c=
+			SnLHxhNX9Gjghbg5dPQwmvgcYJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			d6kDC3IxRGam1yQJTYxqVVq4NcR78RZ0mi7nB6L3Z+M=
+			iSu0ORApYMh0GUcCTQwRC8vHzQ8BIj44OkllffUDY4E=
 			</data>
 		</dict>
 		<key>Headers/vkTracker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OI5kLYrsJ/IDRsX+W5RNYEMfgB8=
+			rwofyyKrMAxTiQc2P9RsYk4D88s=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRk/u+YLD6ood288WPM4CEILYdFb/s5gXM/5cmBdvhs=
+			LvARTaO3w3NIsMc7Z0pFLMtmXZBF50tT2ejNXCV0EmA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

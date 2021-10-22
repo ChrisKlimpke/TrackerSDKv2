@@ -11,7 +11,14 @@
 
 #if TARGET_OS_IOS
 #include <UIKit/UIKit.h>
+
+#if ENABLE_ARKIT_TRK
 #import <ARKit/ARKit.h>
+#else
+#import <ARKit/ARKit.h> // WARNING CK 2021-10-22
+#endif
+
+
 #endif
 
 #include "trackerInterface.h"    // access the structs/enums etc.. required by the interface
@@ -30,10 +37,13 @@ MODULEAPI @interface GroupAnchorMtrx : NSObject {
 @property(nonatomic, readwrite) simd_float4x4 aMatrix;  // Property
 @end
 
+
 MODULEAPI @interface GroupARFrameCache : NSObject {
   @public unsigned int                  frameNumerID;    // the frame numer associated with the arkit frame
+  #if true // ENABLE_ARKIT_TRK
   @public ARFrame                      *arFrame;
   @public NSArray<ARAnchor *>          *anchors;
+  #endif
   @public simd_float4x4                 cameraMatrix;
   @public simd_float4x4                 cameraViewMatrix;
   @public simd_float4x4                 cameraProjectionMatrix;
@@ -92,7 +102,10 @@ MODULEAPI @interface vkTracker : NSObject
 
 - (long) externalSendFrame:(CVPixelBufferRef )frame fov:(float )fov;
 
+#if ENABLE_ARKIT_TRK
 - (long) externalSendARFrame:(ARFrame *) arFrame;  // returns the frame id
+#endif
+
 #endif // TARGET_OS_IOS
 
 - (bool) unaccess;
