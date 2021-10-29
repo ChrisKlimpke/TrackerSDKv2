@@ -1,6 +1,6 @@
 # TrackerSDKv2
 
-Version string used is 2021-10-22R 
+Version string used is 2021-10-28R 
 
 As of 2021-10-22R, ARKIT support is removed
 
