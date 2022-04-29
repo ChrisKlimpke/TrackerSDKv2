@@ -1,5 +1,7 @@
 # TrackerSDKv2
 
+Version 2022-04-29AR supports ARKit with matrxi reportijng extensions
+
 Version string used is 2021-10-28R 
 
 As of 2021-10-22R, ARKIT support is removed
@@ -17,3 +19,4 @@ The SDK document assumes the developer is familiar with C, objective-c, swift an
 The latest 2020-10-29 SDK supports usage logging (see 3.1.3.4) and two new functions have been introduced. The first provides complete transparency of the information being send externally for the purposes of logging usage. The second function registers the shoe model sets with the SDK (see 3.1.3.5) and should be called when a show model set is utilised.
 
 Now supports getSDKexpiry method
+

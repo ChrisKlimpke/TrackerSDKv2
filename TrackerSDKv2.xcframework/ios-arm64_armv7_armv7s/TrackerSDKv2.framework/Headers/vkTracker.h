@@ -37,6 +37,25 @@ MODULEAPI @interface GroupAnchorMtrx : NSObject {
 @property(nonatomic, readwrite) simd_float4x4 aMatrix;  // Property
 @end
 
+typedef enum vkParameterTy {
+  paramNullType,
+  paramFloatType,
+  paramIntType,
+  paramBooType,
+  paramStrngType
+} vkParameterType;
+
+@interface ParameterTripple :NSObject {
+  // @public NSString       *pName;
+  // @public bool            useScientific;
+  //         vkParameterType paramTy;
+  void                   *address;
+}
+@property(nonatomic, readwrite) NSString       *pName;  // Property
+@property(nonatomic, readwrite) bool            useScientific;
+@property(nonatomic, readwrite) vkParameterType paramTy;
+- (void *)getAddress;
+@end
 
 MODULEAPI @interface GroupARFrameCache : NSObject {
   @public unsigned int                  frameNumerID;    // the frame numer associated with the arkit frame
@@ -74,12 +93,14 @@ MODULEAPI @interface GroupARFrameCache : NSObject {
 - (void) vktEvent: (enum vkTrackerTag) tag value: (uint32_t) value;
 @optional
 - (void) vkLogEvent: (NSString *)logMessage;
+- (void) vkReporterFn: (uint32_t )frameID;
 @required
 @end
 
 MODULEAPI @interface vkTracker : NSObject 
 {
 }
+
 
 // Main initalisation functions, usually only called once
 - (void) setDebugErrorFunctions: (LogPtr) dbgFN errFN: (LogPtr) errFN;
@@ -101,6 +122,13 @@ MODULEAPI @interface vkTracker : NSObject
 - (void )xxXreleaseConvertURLtoCVPixelBuffer:(CVPixelBufferRef )cvPxBfrRef ;
 
 - (long) externalSendFrame:(CVPixelBufferRef )frame fov:(float )fov;
+
+-(NSArray *)GetVKeditableParameters; // function to recoved the list of parameters which can be edited
+
+// function to recover parameter address and type
+- (bool) vkGetParameterAddress:(NSString        *)parameterName
+                  parameterPtr:(void           **)parameterPtr
+                     paramType:(vkParameterType *)paramType;
 
 #if ENABLE_ARKIT_TRK
 - (long) externalSendARFrame:(ARFrame *) arFrame;  // returns the frame id
