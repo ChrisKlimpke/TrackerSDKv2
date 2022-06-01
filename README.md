@@ -2,9 +2,8 @@
 
 Version 2022-04-29AR supports ARKit with matrxi reportijng extensions
 
-Version string used is 2021-10-28R 
+Version string used is 2022-05-31R is latest non ARKit version is tagged 1.1.8 and above
 
-As of 2021-10-22R, ARKIT support is removed
 
 This version includes some minor bug fixes.
 
