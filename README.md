@@ -1,9 +1,6 @@
 # TrackerSDKv2
 
-Version 2022-04-29AR supports ARKit with matrxi reportijng extensions
-
-Version string used is 2022-05-31R is latest non ARKit version is tagged 1.1.8 and above
-
+Version string used is 2022-05-31AR is latest ARKit version is tagged 2.0.2 and above
 
 This version includes some minor bug fixes.
 
