@@ -1,6 +1,10 @@
 # TrackerSDKv2
 
-Version string used is 2022-05-31AR is latest ARKit version is tagged 2.0.2 and above
+Version string used is 2022-07-25AR is latest ARKit version is tagged 2.0.3 and above
+
+Version string used is 2022-07-25R is latest non ARKit version is tagged 1.1.10 and above
+
+These versions of the iOS SDK supports the laest AR models for foot tracking
 
 This version includes some minor bug fixes.
 
