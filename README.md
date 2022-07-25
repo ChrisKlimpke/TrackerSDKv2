@@ -1,6 +1,6 @@
 # TrackerSDKv2
 
-Version string used is 2022-07-25AR is latest ARKit version is tagged 2.0.3 and above
+Version string used is 2022-07-25AR is latest ARKit version is tagged 2.0.3 and above for use wih ARKit
 
 Version string used is 2022-07-25R is latest non ARKit version is tagged 1.1.10 and above
 
