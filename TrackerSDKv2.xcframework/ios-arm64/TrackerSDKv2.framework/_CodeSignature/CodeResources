@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/trackerInterface.h</key>
 		<data>
-		6YZBtdllJAzcEllVIXCqocK/XEg=
+		S4acnFvH7fwAHlUFv0N3PXyhwHw=
 		</data>
 		<key>Headers/vkTracker.h</key>
 		<data>
@@ -18,11 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iSINCEmJ/zPzGtnfpY5s/o2K5k0=
+		hZb5zIvrzLmIBKRYl9tuamVSWus=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		nccyZVrDU2VkdJ8Tot+O4MdOJUU=
+		/8ZUMp8t6mSdPCyBek2q+hbMvh0=
+		</data>
+		<key>shrink_wrap_model_foot.obj</key>
+		<data>
+		v0wgLdCgq85sXP2Hx8LnqosMJjw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -42,11 +46,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6YZBtdllJAzcEllVIXCqocK/XEg=
+			S4acnFvH7fwAHlUFv0N3PXyhwHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			H2oTieYTEwWVIfUGF0EUIUAe5rqpGkbhTWBznK/wFP0=
+			dXesuR8PaMUsoaQLhPpCJRaPBJ6HnsRB8DnVulEhWto=
 			</data>
 		</dict>
 		<key>Headers/vkTracker.h</key>
@@ -64,11 +68,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nccyZVrDU2VkdJ8Tot+O4MdOJUU=
+			/8ZUMp8t6mSdPCyBek2q+hbMvh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vKfw+a1c/jdZytayH/xoB96+P49jiwdaAGYWoD1weQc=
+			Lp35vBuG+JXXxz0cg39r8xWE6rljfFqWLmQNGWSapQw=
+			</data>
+		</dict>
+		<key>shrink_wrap_model_foot.obj</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v0wgLdCgq85sXP2Hx8LnqosMJjw=
+			</data>
+			<key>hash2</key>
+			<data>
+			yMlj6OJiZjH3HAiTYQ4rQRE4zddDWpVQ7zOCOnnzWhQ=
 			</data>
 		</dict>
 	</dict>
