@@ -4,8 +4,8 @@ Version string used is 2022-07-25AR is latest ARKit version is tagged 2.0.3 and 
 
 Version string used is 2022-07-25R is latest non ARKit version is tagged 1.1.10 and above
 
-2024-04-03 Latest verison of 2024-04-03R  is git tagged 1.1.13
-2024-04-03 Latest verison of 2024-04-03AR is git tagged 2.0.5
+2024-04-03 Latest verison of 2024-04-03R  is now git tagged 1.1.14
+2024-04-03 Latest verison of 2024-04-03AR is now git tagged 2.0.5 
 
 These versions of the iOS SDK supports the laest AR models for foot tracking
 
