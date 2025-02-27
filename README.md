@@ -4,7 +4,7 @@ Version string used is 2022-07-25AR is latest ARKit version is tagged 2.0.3 and 
 
 Version string used is 2022-07-25R is latest non ARKit version is tagged 1.1.10 and above
 
-2024-04-04 Latest verison of 2024-04-04R  is now git tagged 1.1.15
+2024-11-04 Latest verison of 2024-11-04R  is now git tagged 1.1.16
 
 2024-04-04 Latest verison of 2024-04-04AR is now git tagged 2.0.6
 
